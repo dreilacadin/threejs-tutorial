@@ -7,7 +7,8 @@
     "test": "mocha **/*.test.js *.test.js",
     "build": "webpack",
     "build-watch": "webpack -w",
-    "start": "webpack -w & nodemon server/start.js"
+    "start": "webpack -w & nodemon server/start.js",
+    "serve": "node server/start.js"
   },
   "keywords": [
     "react",
@@ -16,7 +17,7 @@
   ],
   "dependencies": {
     "chalk": "^1.1.3",
-    "express": "^4.14.0",
+    "express": "^4.17.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-router-dom": "^4.1.1",
